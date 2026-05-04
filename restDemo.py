@@ -3,7 +3,7 @@ from pymongo import MongoClient
 from bson.json_util import dumps
 from bson.objectid import ObjectId
 
-client = MongoClient('mongodb+srv://slendyx2002_db_user:VISLGZd4agoTGEfB@radu.h35zgvi.mongodb.net/?appName=Radu')
+client = MongoClient('')
 db = client.FacultateDB
 collection = db.Studenti
 
